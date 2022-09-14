@@ -30,17 +30,18 @@ print(int(bool_true))
 
 print(int(bool_false))
 
-def variable():
-    print("test")
+#
+#def variable():
+#   print("test")
 
-variable()
+#variable()
 
-for x in range(5):
-    print(f"Iteration: {x}")
+#for x in range(5):
+#    print(f"Iteration: {x}")
 
-for x in range(5):
-    print(f"Iteration: {x}")
+#for x in range(5):
+#    print(f"Iteration: {x}")
 
 
-for i in range(5):
-    print("iteration:", i)
+#for i in range(5):
+#    print("iteration:", i)
