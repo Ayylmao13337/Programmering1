@@ -1,5 +1,7 @@
 import random
 
+
+
 pil_1 = 0
 pil_2 = 0
 pil_3 = 0
