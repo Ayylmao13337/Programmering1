@@ -1,4 +1,4 @@
-
+#Pakkelisten som skal bli puttet inn og ut av
 pakkeliste = []
 i = 0
 reptere = 1
@@ -13,6 +13,7 @@ while i < reptere:
         print(pakkeliste)
         continue
     elif not "+" or "-":
+        #Hvis de ikke skriver + eller - avluttes listen og printer ut listen dies 
         print("Du skrev ikke + eller - så listen er ferdig")
         print(pakkeliste)
         i += 1

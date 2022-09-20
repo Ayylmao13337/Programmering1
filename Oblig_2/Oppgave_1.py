@@ -10,6 +10,7 @@ if mening_int == 42:
 #Ser om mening_int er innenfor 30-50
 elif mening_int in range(30, 51):
     print('Nærme, men feil')
+#Hvis det ikke er innenfor 30-50 printer ut feil
 else:
     print('FEIL!')
 
