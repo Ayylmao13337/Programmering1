@@ -1,7 +1,8 @@
-from traceback import print_list
 
+def print_list(liste):
+    for i in liste:
+        print(i)
 
+favoritt_mat = ["Tandori","Taco","Biffsnadder"]
 
-
-favoritt_mat = ["Tandori", "Taco","d"]
-print_list(favoritt_mat) 
+print_list(favoritt_mat)

@@ -2,6 +2,7 @@
 mening = input('Hva er meningen med livet? ')
 mening_int = 0
 #Gjør det sånn at hvis det blir puttet inn noe annet en int vil de gi ut FEIL!
+#Fikk hjelp fra student assistenten med dette
 if (mening.isnumeric()):
     mening_int = int(mening)
 
