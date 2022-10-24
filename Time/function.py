@@ -90,15 +90,28 @@
 
 
 
-from cmath import log
+#from cmath import log
+#
+#
+#def woof_woof_bark():
+#    print("Woof Woof Bark")
+#
+#
+#def dog_to_human_age(dog_age):
+#    human_equivalent_age = 16 * log(dog_age) + 31
+#    return int(human_equivalent_age)
+#
+#print(dog_to_human_age(20))
 
 
-def woof_woof_bark():
-    print("Woof Woof Bark")
 
 
-def dog_to_human_age(dog_age):
-    human_equivalent_age = 16 * log(dog_age) + 31
-    return int(human_equivalent_age)
 
-print(dog_to_human_age(20))
+
+
+def plussing(tall_1,tall_2):
+    result = tall_1+tall_2
+    return result
+
+
+print(plussing(3,3))
